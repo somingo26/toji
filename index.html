@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="curds">
+        <div class="head">
+            <h2>2025</h2>
+            <p>nadi kanadi</p>
+        </div>
+        <div class="inputs">
+            <input type="text" id="title" placeholder="Title">
+            <div class="Price">
+                <input onkeyup="getTotal()" type="number" id="Pacht" placeholder="P.acht">
+                <input onkeyup="getTotal()" type="number" id="Pvent" placeholder="P.vent">
+                <small id="total"></small>
+            </div>
+            <button id="creat">Creat</button>
+        </div>
+        <div class="outputs">
+            <div class="shearcBlock">
+                <input onkeyup="getshear(this.value)" type="text" id="sheare" placeholder="sheare">
+            </div>
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>P.A</th>
+                    <th>P.V</th>
+                    <th>Benfis</th>
+                    <th>update</th>
+                    <th>delet</th>
+                </tr>
+                <tbody id="tybody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
