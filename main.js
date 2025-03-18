@@ -66,9 +66,7 @@ function redData() {
         <tr>
             <td>${A + 1}</td>
             <td>${addProduct[A].name}</td>
-            <td>${addProduct[A].Price}</td>
             <td>${addProduct[A].Pclien}</td>
-            <td>${addProduct[A].total}</td>
             <td><button class="update" onclick="updatData(${A})"><i class='bx bx-pencil'></i></button></td>
             <td><button class="delete" onclick="deletData(${A})"><i class='bx bx-trash-alt'></i></button></td>
         </tr>
@@ -105,9 +103,7 @@ function getshear(value){
             <tr>
                 <td>${i + 1}</td>
                 <td>${addProduct[i].name}</td>
-                <td>${addProduct[i].Price}</td>
-                <td>${addProduct[i].Pclien}</td>
-                <td>${addProduct[i].total}</td>
+                <td>${addProduct[i].Pclien+' DH'}</td>
                 <td><button class="update" onclick="updatData(${i})"><i class='bx bx-pencil'></i></button></td>
                 <td><button class="delete" onclick="deletData(${i})"><i class='bx bx-trash-alt'></i></button></td>
             </tr>
