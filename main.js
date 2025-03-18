@@ -108,7 +108,6 @@ function getshear(value){
                 <td>${addProduct[i].Price}</td>
                 <td>${addProduct[i].Pclien}</td>
                 <td>${addProduct[i].total}</td>
-                <td>${addProduct[i].categori}</td>
                 <td><button class="update" onclick="updatData(${i})"><i class='bx bx-pencil'></i></button></td>
                 <td><button class="delete" onclick="deletData(${i})"><i class='bx bx-trash-alt'></i></button></td>
             </tr>
