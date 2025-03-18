@@ -66,7 +66,7 @@ function redData() {
         <tr>
             <td>${A + 1}</td>
             <td>${addProduct[A].name}</td>
-            <td>${addProduct[A].Pclien}</td>
+            <td>${addProduct[A].Pclien+' DH'}</td>
             <td><button class="update" onclick="updatData(${A})"><i class='bx bx-pencil'></i></button></td>
             <td><button class="delete" onclick="deletData(${A})"><i class='bx bx-trash-alt'></i></button></td>
         </tr>
