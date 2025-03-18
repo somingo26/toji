@@ -100,7 +100,7 @@ function updatData(A){
 function getshear(value){
     let table = '';
     for(let i = 0 ; i < addProduct.length ; i++){
-        if(addProduct[i].name.includes(value.toLowerCase())){
+        if(addProduct[i].name.includes(value)){
             table += `
             <tr>
                 <td>${i + 1}</td>
